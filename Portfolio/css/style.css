@@ -1,37 +1,20 @@
 body /*carac pour body*/
 {
     background:
-    url('../image/bcgd.jpg') ;
+    url('../image/newback.jpg')  no-repeat;
     color: black;
     margin: 0;
     text-align: center;
     background-attachment: fixed;
+    background-size: cover;
 }
-nav {
-    width: 100wh;
-    height: 150px;
-    display: flex !important;
-    justify-content: space-between;
-    align-items: center;
-}
-nav .links--container ul {
-    display: flex;
-}
-nav .links--container ul > li:hover {
-    background-color:silver;
-    opacity: 0,5;
-}
-nav .links--container ul > li > a {
-    padding: 20px;    
-}
-nav .logo--container {
-    margin-left: 20px;
-}
+
 a
 {
     text-decoration: none;
     color: antiquewhite;
 }
+
 p
 {
     color: antiquewhite;
@@ -41,28 +24,23 @@ h1 /*caractéristique titre h1*/
     margin: 0;
     color: antiquewhite;
 }
+
 h2
 {
     margin: 0;
     color: antiquewhite;
 }
-h3
-{
-    margin: 0;
-    color: antiquewhite;
 
-}
-div#corp /*carac de l'ensemble de ma structure*/
+.header
 {
-  width:100wh;
   height:100vh;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+  width: 100wh;
+
 }
-div#header
-{
-    margin-bottom: 20px;
-}
+
 section /*structure de tous mes sections*/
 {
     width:100wh;
@@ -71,13 +49,9 @@ section /*structure de tous mes sections*/
     flex-direction: column;
 
 }
-/*div#exp-pro
-{
-    width:calc(50% - 35px);
-    margin-right: 35px;
+
+address {
+    font-variant-caps: normal;
 }
-div#par-sco
-{
-    width:calc(50% - 35px);
-    margin-left: 35px; 
-}*/
+
+
